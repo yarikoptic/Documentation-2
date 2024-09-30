@@ -55,7 +55,7 @@ def get_lems_type(variable):
 
 
 def format_math(expr):
-    """Replace math symbols with HTML conterparts
+    """Replace math symbols with HTML counterparts
 
     :param expr: expression to format
     :type expr: str

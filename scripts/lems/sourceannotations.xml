@@ -213,7 +213,7 @@ An optional description of the ComponentReference        </Property>
         <Property name="name" type="String"/>
     </ElementType>
     <ElementType name="Collection" section="componenttypes">
-        <Info>Specifies that instances of components based on this class can containe a named collection of other instances. This provides for containers for operating on groups of instances with path and filter expressions defined in components to operate over the instance tree.</Info>
+        <Info>Specifies that instances of components based on this class can contain a named collection of other instances. This provides for containers for operating on groups of instances with path and filter expressions defined in components to operate over the instance tree.</Info>
         <Property name="name" type="String"/>
     </ElementType>
     <ElementType name="PairCollection" section="componenttypes">
@@ -319,7 +319,7 @@ The dimension, or 'none'. This should be the name of an already defined dimensio
         <Property name="description" type="String">
 An optional description of the derived variable        </Property>
         <Property name="reduce" type="String">
-Either 'add' or 'multiply'. This applies if ther are multiple matches to the path or if 'required' is false. In the latter case, for multiply mode, multiplicative expressions in this variable behave as if the term was absent. Additive expressions generate an error. Conversely, if set to 'add' then additive expressions behave as if it was not there and multiplicative ones generateand error.        </Property>
+Either 'add' or 'multiply'. This applies if there are multiple matches to the path or if 'required' is false. In the latter case, for multiply mode, multiplicative expressions in this variable behave as if the term was absent. Additive expressions generate an error. Conversely, if set to 'add' then additive expressions behave as if it was not there and multiplicative ones generateand error.        </Property>
         <Property name="exposure" type="String"/>
         <Property name="required" type="boolean">
 Set to true if it OK for this variable to be absent. See 'reduce' for what happens in this case        </Property>
@@ -358,7 +358,7 @@ Name of state variable in state elements        </Property>
         <Property name="edgeSource" type="String">
 The name of the attribute in the rate element that defines the source of the transition        </Property>
         <Property name="edgeTarget" type="String">
-Attribute tha defines the target        </Property>
+Attribute that defines the target        </Property>
         <Property name="forwardRate" type="String">
 Name of forward rate exposure        </Property>
         <Property name="reverseRate" type="String">
